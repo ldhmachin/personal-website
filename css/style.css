@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lora:400,600,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 
 
 body {
@@ -20,7 +20,7 @@ span {
 
 h1 {
   font-family: "Lora", serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 4.1em;
   line-height: 0;
   padding-bottom: 16px;
@@ -28,8 +28,24 @@ h1 {
 
 h2 {
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 2.5em;
   line-height: 0;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 16px;
+  font-size: 2.4em;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
 }
